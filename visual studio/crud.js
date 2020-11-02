@@ -95,6 +95,7 @@ add_user.FetchAll();
 
 function CloseInput() {
     document.getElementById('spoiler').style.display = 'none';
+    addvisible();
 }
 
 
