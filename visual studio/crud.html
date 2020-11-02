@@ -22,9 +22,9 @@
 
                 </form>
                 <div id="spoiler" role="aria-hidden">
-                    <form action="javascript:void(0);" method="POST" id="saveEdit" onclick="addvisible();return false;">
+                    <form action="javascript:void(0);" method="POST" id="saveEdit" >
                         <input type="text" id="edit-name">
-                        <input type="submit" value="Edit" id="edit"/> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+                        <input type="submit" value="Edit" id="edit" onclick="addvisible();return false;"/> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
                     </form>
                 </div>
                 <p id="counter"></p>
